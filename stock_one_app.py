@@ -2,13 +2,13 @@ import yfinance as yf
 import streamlit as st
 
 st.write("""
-## Simple Stock Price App
+## Simple Stock Price App by Surya(Vit Bhopal)
 Shown are the ***stock closing*** price and volume of Google!
 """)
 
 # https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 #define the ticker symbol
-inputt = "Enter the share Company"
+inputt = "Enter the share Company (clear this text, Stock Name (eg. 'GOOGL' for Google) and press  CTRL + Enter"
 innp = st.text_area("Input",inputt,height=25)
 #tickerSymbol = 'ITC'
 #get data on this ticker
